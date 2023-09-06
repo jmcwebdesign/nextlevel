@@ -6,7 +6,7 @@ import './services.css';
 
 const Services = () => {
   return (
-    <div className='nextlvl__blog section__padding' id='services'>
+    <div className='nextlvl__services section__padding' id='services'>
       <div className="nextlvl__services-heading">
         <h1 className='gradient__text'>Our Services</h1>
         <p className='nextlvl__services-subtext'>Choose from our wide range of accounting solutions</p>

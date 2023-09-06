@@ -16,10 +16,10 @@ const Navbar = () => {
 
   return (
     <div className='nextlvl__navbar'>
+      <div className='nextlvl__navbar-logo'>
+        <img src={logo} alt="logo" />
+      </div>
       <div className='nextlvl__navbar-links'>
-        <div className='nextlvl__navbar-links_logo'>
-          <img src={logo} alt="logo" />
-        </div>
         <div className='nextlvl__navbar-links_container'>
           <Menu />
         </div>
