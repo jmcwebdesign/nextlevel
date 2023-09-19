@@ -1,13 +1,14 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import { RiMenu3Line, RiCloseLine } from 'react-icons/ri';
 import logo from '../../assets/logo.png';
 import './navbar.css';
 
 const Menu = () => (
   <>
-  <p><a href='#home'>About</a></p>
-  <p><a href='#services'>Services</a></p>
-  <p><a href='#blog'>Blog</a></p>
+  <p><a href='/about'>About</a></p>
+  <p><a href='/services'>Services</a></p>
+  <p><a href='/#blog'>Blog</a></p>
   </>
 )
 
@@ -17,7 +18,9 @@ const Navbar = () => {
   return (
     <div className='nextlvl__navbar'>
       <div className='nextlvl__navbar-logo'>
-        <img src={logo} alt="logo" />
+        <Link to="/">
+          <img src={logo} alt="logo" />
+        </Link>
       </div>
       <div className='nextlvl__navbar-links'>
         <div className='nextlvl__navbar-links_container'>
@@ -25,8 +28,8 @@ const Navbar = () => {
         </div>
       </div>
       <div className='nextlvl__navbar-btns'>
-        <button type='button'>Portal Login</button>
-        <button type='button'>Contact Us</button>
+        <button type='button' onClick={() => window.open('https://www.google.com', '_blank')}>Portal Login</button>
+        <button type='button' onClick={() => window.location.href="#contact"}>Contact Us</button>
       </div>
       <div className='nextlvl__navbar-menu'>
         {toggleMenu
@@ -38,8 +41,8 @@ const Navbar = () => {
             <div className='nextlvl__navbar-menu_container-links'>
               <Menu />
               <div className='nextlvl__navbar-menu_container-links-btns'>
-                <button type='button'>Portal Login</button>
-                <button type='button'>Contact Us</button>
+                <button type='button' onClick={() => window.open('https://www.google.com', '_blank')}>Portal Login</button>
+                <button type='button' onClick={() => window.location.href="#contact"}>Contact Us</button>
               </div>
             </div>
           </div>

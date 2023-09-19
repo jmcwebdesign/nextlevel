@@ -1,0 +1,107 @@
+.nextlvl__contact-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.nextlvl__contact-title {
+    font-family: var(--font-family);
+    color: var(--color-text);
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+}
+
+.nextlvl__contact-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 650px;
+}
+
+.nextlvl__contact-form_input,
+.nextlvl__contact-form_select,
+.nextlvl__contact-form_textarea,
+.nextlvl__contact-form_btn {
+    width: 300px;
+    padding: 12px;
+    border-radius: 6px;
+    border: 1px solid #E6E6E6;
+    transition: border 0.3s ease;
+    background: #F9F9F9;
+    font-family: var(--font-family);
+}
+
+.nextlvl__contact-form_input:focus,
+.nextlvl__contact-form_select:focus,
+.nextlvl__contact-form_textarea:focus {
+    border-color: #646f85; 
+    outline: none;
+}
+
+/* Normal placeholder styling */
+.nextlvl__contact-form_input::placeholder,
+.nextlvl__contact-form_select::placeholder,
+.nextlvl__contact-form_textarea::placeholder {
+    opacity: 1; /* This makes the placeholder text fully visible */
+    transition: opacity 0.3s ease; /* This will smooth the fade effect */
+}
+
+/* Fading away placeholder text on focus */
+.nextlvl__contact-form_input:focus::placeholder,
+.nextlvl__contact-form_select:focus::placeholder,
+.nextlvl__contact-form_textarea:focus::placeholder {
+    opacity: 0; /* This will make the placeholder text completely transparent when the input is focused */
+}
+
+.nextlvl__contact-form_select {
+    cursor: pointer;
+}
+
+.nextlvl__contact-form_textarea {
+    height: 150px;
+    width: 620px;
+    resize: vertical;  /* Allowing vertical resize only */
+    padding: 12px 531px 100px 12px;
+}
+
+.nextlvl__contact-form_btn {
+    background-color: var(--color-btn);  /* A blue background for the button. Adjust to your theme if needed. */
+    color: #ffffff;
+    font-weight: 700;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.invalid {
+    border: 1px solid red;
+}
+
+@keyframes shake {
+    0% { transform: translateX(0); }
+    25% { transform: translateX(-7px); }
+    50% { transform: translateX(7px); }
+    75% { transform: translateX(-7px); }
+    100% { transform: translateX(0); }
+}
+
+.shake-effect {
+    animation: shake 0.25s linear;
+}
+
+@media screen and (max-width: 450px) {
+    .nextlvl__contact-form {
+        gap: 15px;
+        width: 350px;
+    }
+
+    .nextlvl__contact-form_textarea {
+        width: 300px;
+        padding: 12px 200px 100px 12px;
+    }
+}

@@ -81,3 +81,63 @@
     line-height: 20px;
     text-align: center;
 }
+
+@media screen and (max-width: 1050px) {
+    .nextlvl__review {
+        padding: 60px 60px;
+        gap: 30px;
+    }
+
+    .nextlvl__review-content {
+        gap: 20px;
+    }
+
+    .nextlvl__review-content_review-name .nextlvl__review-content_stars {
+        font-size: 12px;
+        line-height: 22px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .nextlvl__review {
+        padding: 40px 30px;
+        gap: 20px;
+    }
+
+    .nextlvl__review-content {
+        gap: 10px;
+    }
+
+    .nextlvl__review-title h1 {
+        font-size: 32px;
+        line-height: 40px;
+    }
+
+    .nextlvl__review-content_review-name h4 {
+        font-size: 12px;
+    }
+
+    .nextlvl__review-content_review p {
+        font-size: 12px;
+    }
+
+    .nextlvl__review-content_review-name .nextlvl__review-content_stars {
+        font-size: 10px;
+        line-height: 22px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .nextlvl__review {
+        flex-direction: column;
+    }
+
+    .nextlvl__review-title h1 {
+        font-size: 24px;
+        line-height: 30px;
+    }
+
+    .nextlvl__review-content_review-name {
+        flex-direction: column;
+    }
+}

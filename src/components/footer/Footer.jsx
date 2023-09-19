@@ -3,7 +3,7 @@ import './footer.css';
 
 const Footer = () => {
   return (
-    <div className='nextlvl__footer section__padding'>
+    <div className='nextlvl__footer'>
       <div className="nextlvl__footer-links">
         <p><a href='#home'>About</a></p>
         <p><a href='#services'>Services</a></p>
