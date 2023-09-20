@@ -115,3 +115,78 @@
     line-height: 24px;
     text-align: center;
 }
+
+@media screen and (max-width: 900px) {
+    .nextlvl__about {
+        padding: 80px 30px; /* Reduced padding for smaller screens */
+    }
+
+    .nextlvl__about-container_card {
+        flex-direction: column; /* Stack card contents vertically */
+        align-items: center; /* Center items horizontally */
+        padding: 20px; /* Add some padding to make sure content doesn't touch borders */
+    }
+
+    .nextlvl__about-container_card-content h3 {
+        text-align: center; /* Center text for all cards on smaller screens */
+    }
+
+    .nextlvl__about-container_team {
+        width: 100%; /* Allow the team section to stretch full width of container */
+        padding: 0 20px; /* Add side padding to prevent touching the edges */
+    }
+
+    .nextlvl__about-container_team-image img {
+        width: 150px;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .nextlvl__about {
+        padding: 40px 10px; /* Further reduced padding for mobile screens */
+    }
+
+    .nextlvl__about-container_card {
+        padding: 15px; /* Reduced padding */
+        gap: 15px; /* Reduced gap between image and content */
+    }
+
+    .nextlvl__about-container_card-image img {
+        width: 100%; /* Make the image responsive by taking full available width */
+        max-width: 250px; /* You can adjust this value based on how big you want the image to be */
+        height: auto;
+    }
+
+    .nextlvl__about-container_team {
+        padding: 0 10px; /* Add side padding for the team section */
+    }
+
+    .nextlvl__about-container_team-image {
+        gap: 30px; /* Reduce gap between team images for mobile */
+    }
+
+    .nextlvl__about-container_team-image img {
+        width: 100px;
+        height: auto;
+    }
+
+    .nextlvl__about-container_card-content h3,
+    .nextlvl__about-container_team-content h3 {
+        font-size: 20px;
+    }
+
+    .nextlvl__about-container_card:nth-child(2) .nextlvl__about-container_card-content h3 {
+        text-align: center;
+    }
+
+    .nextlvl__about-title h1 {
+        font-size: 32px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .nextlvl__about-container_team-image img {
+        width: 85px;
+    }
+}

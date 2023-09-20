@@ -5,6 +5,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 5px 20px;
+    z-index: 10;
 }
 
 .nextlvl__navbar-links {
@@ -91,18 +92,19 @@
 .nextlvl__navbar-menu_container {
     display: flex;
     justify-content: flex-end;
-    align-items: flex-end;
+    align-items: center;
     flex-direction: column;
-    text-align: end;
+    text-align: center;
     background: var(--color-primary);
     padding: 2rem;
     position: absolute;
     top: 40px;
     right: 0;
     margin-top: 1rem;
-    min-width: 210px;
+    width: 395px;
     border-radius: 5px;
     box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.12);
+    z-index: 20;
 }
 
 .nextlvl__navbar-menu_container p {
@@ -117,7 +119,7 @@
     margin-bottom: 1rem;
 }
 
-@media screen and (max-width: 1050px) {
+@media screen and (max-width: 900px) {
     .nextlvl__navbar-links_container {
         display: none;
     }
@@ -147,6 +149,13 @@
     }
 
     .nextlvl__navbar-menu_container-links-btns {
-        display: block;
+        display: flex;            /* Ensure it's using flexbox */
+        flex-direction: column;   /* Stack children vertically */
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .nextlvl__navbar-menu_container {
+        width: 345px;
     }
 }
