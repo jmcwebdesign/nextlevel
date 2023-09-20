@@ -23,6 +23,14 @@
     letter-spacing: 0.2px;
 }
 
+.nextlvl__footer-links p {
+    transition: filter 0.3s ease;
+}
+
+.nextlvl__footer-links p:hover {
+    filter: brightness(80%);
+}
+
 .nextlvl__footer-copyright {
     display: flex;
     justify-content: center;

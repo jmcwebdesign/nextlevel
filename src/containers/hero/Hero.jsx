@@ -21,8 +21,8 @@ const Hero = () => {
         <p>description text here</p>
 
         <div className='nextlvl__hero-content_btns'>
-          <button type='button'>Learn More</button>
-          <button type='button'>Get Started</button>
+          <button type='button' onClick={() => window.location.href="/about"}>Learn More</button>
+          <button type='button' onClick={() => window.location.href="#contact"}>Get Started</button>
         </div>
       </div>
     </div>

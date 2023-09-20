@@ -1,16 +1,14 @@
-import { About } from '../containers';
-import { Navbar, Review, Contact, Footer } from '../components';
+import { Terms } from '../containers';
+import { Navbar, Footer } from '../components';
 
-const AboutPage = () => {
+const TermsPage = () => {
     return (
         <div>
             <Navbar />
-            <About />
-            <Review />
-            <Contact />
+            <Terms />
             <Footer />
         </div>
     );
 };
 
-export default AboutPage
+export default TermsPage

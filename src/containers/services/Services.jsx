@@ -12,39 +12,45 @@ const Services = () => {
         <p>Choose from our wide range of accounting solutions</p>
       </div>
       <div className="nextlvl__services-container">
-        <div className='nextlvl__services-container_article'>
-          <div className="nextlvl__services-container_article-image">
-            <img src={product1} alt='services' />
-          </div>
-          <div className="nextlvl__services-container_article-content">
-            <div>
-              <h2>Product 1</h2>
-              <h3>product description</h3>
+        <a href='/services' className='nextlvl__services-container_link'>
+          <div className='nextlvl__services-container_article'>
+            <div className="nextlvl__services-container_article-image">
+              <img src={product1} alt='services' />
+            </div>
+            <div className="nextlvl__services-container_article-content">
+              <div>
+                <h2>Product 1</h2>
+                <h3>product description</h3>
+              </div>
             </div>
           </div>
-        </div>
-        <div className='nextlvl__services-container_article'>
-          <div className="nextlvl__services-container_article-image">
-            <img src={product2} alt='services' />
-          </div>
-          <div className="nextlvl__services-container_article-content">
-            <div>
-              <h2>Product 2</h2>
-              <h3>product description</h3>
+        </a>
+        <a href='/services' className='nextlvl__services-container_link'>
+          <div className='nextlvl__services-container_article'>
+            <div className="nextlvl__services-container_article-image">
+              <img src={product2} alt='services' />
+            </div>
+            <div className="nextlvl__services-container_article-content">
+              <div>
+                <h2>Product 2</h2>
+                <h3>product description</h3>
+              </div>
             </div>
           </div>
-        </div>
-        <div className='nextlvl__services-container_article'>
-          <div className="nextlvl__services-container_article-image">
-            <img src={product3} alt='services' />
-          </div>
-          <div className="nextlvl__services-container_article-content">
-            <div>
-              <h2>Product 3</h2>
-              <h3>product description</h3>
+        </a>
+        <a href='/services' className='nextlvl__services-container_link'>
+          <div className='nextlvl__services-container_article'>
+            <div className="nextlvl__services-container_article-image">
+              <img src={product3} alt='services' />
+            </div>
+            <div className="nextlvl__services-container_article-content">
+              <div>
+                <h2>Product 3</h2>
+                <h3>product description</h3>
+              </div>
             </div>
           </div>
-        </div>
+        </a>
       </div>
     </div>
   )

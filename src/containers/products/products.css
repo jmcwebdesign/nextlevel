@@ -1,0 +1,89 @@
+.nextlvl__products {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 65px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+    padding: 120px 170px 122px 170px;
+}
+
+.nextlvl__products-title h1 {
+    text-align: center;
+    font-family: var(--font-family);
+    color: var(--color-text);
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+}
+
+.nextlvl__products-container {
+    display: flex;
+    padding: 20px 0px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 75px;
+}
+
+.nextlvl__products-container_card {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    border-radius: 6px;
+    border: 1px solid rgba(0, 0, 0, 0.10);
+    gap: 50px;
+}
+
+.nextlvl__products-container_card-image img {
+    width: 300px;
+    display: block;
+}
+
+.nextlvl__products-container_card-content {
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.nextlvl__products-container_card-content h3 {
+    font-family: var(--font-family);
+    color: var(--color-text);
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    text-align: center;
+}
+
+.nextlvl__products-container_card-content li {
+    font-family: var(--font-family);
+    color: var(--color-subtext);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: center;
+}
+
+.nextlvl__products-container_card-content button {
+    padding: 0.5rem 1rem;
+    color: #fff;
+    background: var(--color-btn);
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    border-radius: 5px;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    transform: scale(1);
+    transition: transform 0.3s ease;
+    margin-top: 40px;
+    width: 150px;
+}
+    
+.nextlvl__products-container_card-content button:hover {
+    transform: scale(1.03);
+}

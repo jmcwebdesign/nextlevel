@@ -12,13 +12,13 @@ const Blog = () => {
       </div>
       <div className="nextlvl__blog-container">
         <div className="nextlvl__blog-container_groupA">
-          <Article imgUrl={blog01} title='Accounting' desc='Brief description of blog section' />
+          <Article linkUrl='https://nextlevellaunchpad.com/category/accounting/' imgUrl={blog01} title='Accounting' desc='Brief description of blog section' />
         </div>
         <div className="nextlvl__blog-container_groupB">
-          <Article imgUrl={blog02} title='IT Solutions' desc='Brief description of blog section' />
-          <Article imgUrl={blog03} title='Human Resources' desc='Brief description of blog section' />
-          <Article imgUrl={blog04} title='Marketing' desc='Brief description of blog section' />
-          <Article imgUrl={blog05} title='Operations' desc='Brief description of blog section' />
+          <Article linkUrl='https://nextlevellaunchpad.com/category/it-solutions/' imgUrl={blog02} title='IT Solutions' desc='Brief description of blog section' />
+          <Article linkUrl='https://strativerhr.com/blog/' imgUrl={blog03} title='Human Resources' desc='Brief description of blog section' />
+          <Article linkUrl='https://nextlevellaunchpad.com/category/marketing/' imgUrl={blog04} title='Marketing' desc='Brief description of blog section' />
+          <Article linkUrl='https://nextlevellaunchpad.com/category/operations/' imgUrl={blog05} title='Operations' desc='Brief description of blog section' />
         </div>
       </div>
     </div>

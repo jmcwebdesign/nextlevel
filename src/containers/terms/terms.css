@@ -1,0 +1,29 @@
+.nextlvl__terms {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 65px;
+    flex: 1 0 0;
+}
+
+.nextlvl__terms-title h1 {
+    font-family: var(--font-family);
+    color: var(--color-text);
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+}
+
+.nextlvl__terms-text {
+    margin: 0 80px 0 80px;
+}
+
+.nextlvl__terms-text p {
+    font-family: var(--font-family);
+    color: var(--color-subtext);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    align-self: stretch;
+}

@@ -1,11 +1,11 @@
-import { About } from '../containers';
+import { Products } from '../containers';
 import { Navbar, Review, Contact, Footer } from '../components';
 
-const AboutPage = () => {
+const ServicesPage = () => {
     return (
         <div>
             <Navbar />
-            <About />
+            <Products />
             <Review />
             <Contact />
             <Footer />
@@ -13,4 +13,4 @@ const AboutPage = () => {
     );
 };
 
-export default AboutPage
+export default ServicesPage

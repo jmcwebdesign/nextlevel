@@ -9,6 +9,18 @@
     border: 1px solid rgba(0, 0, 0, 0.10);
 }
 
+.nextlvl__blog-container_article-link {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+    width: 100%;
+    transition: box-shadow 0.3s ease; /* smooth transition for the shadow */
+}
+
+.nextlvl__blog-container_article-link:hover {
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2); /* adjust as needed */
+}
+
 .nextlvl__blog-container_article-image {
     flex: 1 0 0;
     width: 100px;

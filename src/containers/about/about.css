@@ -1,0 +1,117 @@
+.nextlvl__about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 65px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+    padding: 120px 170px 122px 170px;
+}
+
+.nextlvl__about-title h1 {
+    text-align: center;
+    font-family: var(--font-family);
+    color: var(--color-text);
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+}
+
+.nextlvl__about-container {
+    display: flex;
+    padding: 20px 0px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 75px;
+}
+
+.nextlvl__about-container_card {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    border-radius: 6px;
+    border: 1px solid rgba(0, 0, 0, 0.10);
+    gap: 30px;
+}
+
+.nextlvl__about-container_card-image img {
+    width: 300px;
+    display: block;
+}
+
+.nextlvl__about-container_card-content {
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.nextlvl__about-container_card-content h3 {
+    font-family: var(--font-family);
+    color: var(--color-text);
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    text-align: right;
+}
+
+.nextlvl__about-container_card:nth-child(2) .nextlvl__about-container_card-content h3 {
+    text-align: left;
+}
+
+.nextlvl__about-container_card-content p {
+    font-family: var(--font-family);
+    color: var(--color-subtext);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: center;
+}
+
+.nextlvl__about-container_team {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 800px;
+    margin-top: 100px;
+}
+
+.nextlvl__about-container_team-image {
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+}
+
+.nextlvl__about-container_team-image img {
+    width: 200px;
+    height: auto;
+}
+
+.nextlvl__about-container_team-content {
+    display: flex;
+    padding: 15px;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.nextlvl__about-container_team-content h3 {
+    font-family: var(--font-family);
+    color: var(--color-text);
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+}
+
+.nextlvl__about-container_team-content p {
+    font-family: var(--font-family);
+    color: var(--color-subtext);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: center;
+}
