@@ -21,7 +21,7 @@
     line-height: 48px;
 }
 
-.nextlvl__blog-heading h3 {
+.nextlvl__blog-heading p {
     font-family: var(--font-family);
     color: var(--color-text);
     font-size: 16px;

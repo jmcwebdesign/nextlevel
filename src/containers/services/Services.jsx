@@ -19,8 +19,8 @@ const Services = () => {
             </div>
             <div className="nextlvl__services-container_article-content">
               <div>
-                <h2>Product 1</h2>
-                <h3>product description</h3>
+                <h2>CFO</h2>
+                <h3><li>Forecasting</li><li>Budgeting</li><li>Planning</li><li>Growth</li><li>Substantial cost savings</li></h3>
               </div>
             </div>
           </div>
@@ -32,8 +32,8 @@ const Services = () => {
             </div>
             <div className="nextlvl__services-container_article-content">
               <div>
-                <h2>Product 2</h2>
-                <h3>product description</h3>
+                <h2>Controller</h2>
+                <h3><li>Bank records</li><li>EOM</li><li>Clean up</li><li>Training</li><li>Payroll</li></h3>
               </div>
             </div>
           </div>
@@ -45,8 +45,8 @@ const Services = () => {
             </div>
             <div className="nextlvl__services-container_article-content">
               <div>
-                <h2>Product 3</h2>
-                <h3>product description</h3>
+                <h2>Staff Accountant</h2>
+                <h3><li>Accounts Payable</li><li>Accounts Receivable</li><li>Data Entry</li><li>Security</li><li>Opportunity notifications</li></h3>
               </div>
             </div>
           </div>

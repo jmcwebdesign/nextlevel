@@ -10,6 +10,7 @@ const Hero = () => {
           src={video}
           type="video/mov"
           loop
+          playbackRate='0.5'
           muted
           autoPlay
           playsInline
@@ -18,7 +19,8 @@ const Hero = () => {
       </div>
       <div className='nextlvl__hero-content'>
         <h1 className='nextlvl__hero-content_title'>Welcome to NextLevel</h1>
-        <p>description text here</p>
+        <h4>Your Strategic Financial Partner</h4>
+        <p>In today's dynamic business landscape, visionary enterprises require more than just basic accounting; they demand strategic financial foresight.<br/>NextLevel bridges this gap by offering outsourced CFO and accounting solutions tailored for the future.</p>
 
         <div className='nextlvl__hero-content_btns'>
           <button type='button' onClick={() => window.location.href="/about"}>Learn More</button>

@@ -1,7 +1,7 @@
 .nextlvl__hero {
     position: relative;
     display: flex;
-    height: 488px;
+    height: 900px;
     padding: 60px 170px;
     justify-content: center;
     align-items: center;
@@ -36,7 +36,7 @@
     right: 0;
     bottom: 0;
     left: 0;
-    background-color: rgba(70, 130, 180, 0.7);
+    background-color: rgba(70, 130, 180, 0.75);
     z-index: 1;
 }
 
@@ -52,9 +52,19 @@
 .nextlvl__hero-content_title {
     font-family: var(--font-family);
     color: #fff;
-    font-size: 40px;
+    font-size: 52px;
     font-weight: 700;
     line-height: 50px;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.nextlvl__hero-content h4 {
+    font-family: var(--font-family);
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 24px;
     text-align: center;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
 }
@@ -62,10 +72,11 @@
 .nextlvl__hero-content p {
     font-family: var(--font-family);
     color: #fff;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 400;
-    line-height: 20px;
+    line-height: 24px;
     text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
 }
 
 .nextlvl__hero-content_btns {
@@ -115,4 +126,9 @@
     .nextlvl__hero-content_title {
         font-size: 30px;
     }
+
+    .nextlvl__hero {
+        height: 600px;
+    }
 }
+

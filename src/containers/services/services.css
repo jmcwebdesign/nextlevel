@@ -23,11 +23,11 @@
 }
 
 .nextlvl__services-heading p {
-    color: var(--color-subtext);
     font-family: var(--font-family);
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 20px;
+    color: var(--color-text);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
 }
 
 .nextlvl__services-container {

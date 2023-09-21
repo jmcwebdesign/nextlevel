@@ -27,6 +27,11 @@
     height: 100px;
 }
 
+.nextlvl__blog-container_article-image img {
+    width: 100px;
+    height: 100%;
+}
+
 .nextlvl__blog-container_article-content {
     display: flex;
     flex-direction: column;
