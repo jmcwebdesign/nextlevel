@@ -57,6 +57,12 @@
     gap: 40px;
 }
 
+@media screen and (min-width: 2000px) {
+    .nextlvl__blog-container {
+        flex-direction: column;
+    }
+}
+
 @media screen and (max-width: 1050px) {
     .nextlvl__blog-container_groupA,
     .nextlvl__blog-container_groupB {
@@ -85,5 +91,17 @@
 
     .nextlvl__blog-container {
         gap: 20px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .nextlvl__blog-container_groupA,
+    .nextlvl__blog-container_groupB {
+        width: 275px;
+        gap: 10px;
+    }
+
+    .nextlvl__blog-container {
+        gap: 10px;
     }
 }
