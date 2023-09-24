@@ -55,7 +55,7 @@
     font-size: 24px;
     font-weight: 700;
     line-height: 32px;
-    text-align: right;
+    text-align: center;
 }
 
 .nextlvl__about-container_card:nth-child(2) .nextlvl__about-container_card-content {
@@ -63,7 +63,7 @@
 }
 
 .nextlvl__about-container_card:nth-child(2) .nextlvl__about-container_card-content h3 {
-    text-align: left;
+    text-align: center;
 }
 
 .nextlvl__about-container_card-content p {
@@ -143,6 +143,11 @@
         flex-direction: column;
         align-items: center;
     }
+
+    .nextlvl__about-container_card-content,
+    .nextlvl__about-container_card:nth-child(2) .nextlvl__about-container_card-content {
+        margin: 0;
+    }
     
     .nextlvl__about-container_card-image img {
         width: 400px;
@@ -161,11 +166,13 @@
         padding: 20px; /* Add some padding to make sure content doesn't touch borders */
     }
 
-    .nextlvl__about-container_card-image img {
-        
+    .nextlvl__about-container_card-content,
+    .nextlvl__about-container_card:nth-child(2) .nextlvl__about-container_card-content {
+        margin: 0;
     }
 
-    .nextlvl__about-container_card-content h3 {
+    .nextlvl__about-container_card-content h3,
+    .nextlvl__about-container_card:nth-child(2) .nextlvl__about-container_card-content h3 {
         text-align: center; /* Center text for all cards on smaller screens */
     }
 
